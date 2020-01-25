@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vasu Balakrishnan</title>
-    <link>https://vasu.fyi/</link>
-    <description>Recent content on Vasu Balakrishnan</description>
+    <title>Posts on Vasu Balakrishnan</title>
+    <link>https://vasu.fyi/posts/</link>
+    <description>Recent content in Posts on Vasu Balakrishnan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jan 2020 22:18:43 -0500</lastBuildDate>
     
-	<atom:link href="https://vasu.fyi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vasu.fyi/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
