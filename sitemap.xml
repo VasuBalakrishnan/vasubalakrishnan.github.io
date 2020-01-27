@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://vasu.fyi/posts/2020/01/hello/</loc>
+    <loc>https://vasu.fyi/</loc>
+    <lastmod>2020-01-24T22:18:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://vasu.fyi/posts/hello/</loc>
     <lastmod>2020-01-24T22:18:43-05:00</lastmod>
   </url>
   
@@ -13,12 +18,15 @@
   </url>
   
   <url>
-    <loc>https://vasu.fyi/</loc>
-    <lastmod>2020-01-24T22:18:43-05:00</lastmod>
+    <loc>https://vasu.fyi/page/about/</loc>
   </url>
   
   <url>
     <loc>https://vasu.fyi/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vasu.fyi/page/</loc>
   </url>
   
   <url>

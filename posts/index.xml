@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Vasu Balakrishnan</title>
+    <title>Posts on </title>
     <link>https://vasu.fyi/posts/</link>
-    <description>Recent content in Posts on Vasu Balakrishnan</description>
+    <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Jan 2020 22:18:43 -0500</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Hello</title>
-      <link>https://vasu.fyi/posts/2020/01/hello/</link>
+      <link>https://vasu.fyi/posts/hello/</link>
       <pubDate>Fri, 24 Jan 2020 22:18:43 -0500</pubDate>
       
-      <guid>https://vasu.fyi/posts/2020/01/hello/</guid>
+      <guid>https://vasu.fyi/posts/hello/</guid>
       <description>I&#39;m Vasu Balakrishnan, a passionate technologist, software development leader and technical architect.
 Welcome to my site. Stay tuned for updates, as I curate the content &amp;hellip;</description>
     </item>
