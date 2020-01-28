@@ -6,10 +6,20 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2020 22:18:43 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 22:20:01 -0500</lastBuildDate>
     
 	<atom:link href="https://vasu.fyi/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Prelude</title>
+      <link>https://vasu.fyi/posts/prelude/</link>
+      <pubDate>Sun, 26 Jan 2020 22:20:01 -0500</pubDate>
+      
+      <guid>https://vasu.fyi/posts/prelude/</guid>
+      <description>I&#39;m passionate about technology in general and programming. My first introduction to computers was in my junior year of High School when my parents got us Sinclair ZX Spectrum 128K.
+While I primarily used it for playing games, I did get to code simple BASIC programs. Never did I imagine then it would end up as a Software Engineer. I went on to finish my Masters (Computer Applications) and over the years I&#39;ve worked with multitude of technologies, languages, frameworks and tools.</description>
+    </item>
     
     <item>
       <title>Hello</title>
