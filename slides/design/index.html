@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Design Principles</title>
+
+<meta name="author" content="Vasu Balakrishnan">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/reveal-js/css/reveal.css"><link rel="stylesheet" href="/reveal-js/css/theme/simple.css" id="theme">
+<link rel="stylesheet" href="/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+
+  
+
+    <section><h1 id="solid">SOLID</h1>
+<p>Solid Principles of Object Oriented Programming to make software designs more understandable, flexible and maintenable</p>
+</section><section>
+
+
+<section data-shortcode-section>
+<h1 id="srp">SRP</h1>
+<p>Single Responsibility Principle</p>
+<blockquote>
+<p>A class should've a single responsibility</p>
+</blockquote>
+
+</section>
+</section><section>
+
+
+<section data-shortcode-section>
+<h1 id="ocp">OCP</h1>
+<p>Open Closed Principle</p>
+<blockquote>
+<p>Types should be open for extension, but closed for modification</p>
+</blockquote>
+
+</section>
+</section><section>
+
+
+<section data-shortcode-section>
+<h1 id="lsp">LSP</h1>
+<p>Liskov Subsitution Principle</p>
+<blockquote>
+<p>Objects in a program should be replaceable with instances of their sub-type without altering correctness of that program</p>
+</blockquote>
+
+</section>
+</section><section>
+
+
+<section data-shortcode-section>
+<h1 id="isp">ISP</h1>
+<p>Interface Segregation Principle</p>
+<blockquote>
+<p>Many client-specific interfaces are better than one general-purpose interface</p>
+</blockquote>
+
+</section>
+</section><section>
+
+
+<section data-shortcode-section>
+<h1 id="dip">DIP</h1>
+<p>Dependency Inversion Principle</p>
+<blockquote>
+<p>Depend on abstractions not on concrete types</p>
+</blockquote>
+
+</section>
+</section><section>
+<h3 id="references">References</h3>
+<a href="https://www.amazon.com/gp/product/0135974445" target="_blank">
+    <img class="rounded" style="display: inline; margin: 5px;" 
+         width="150" height="210" 
+         src="https://images-na.ssl-images-amazon.com/images/I/51yHf-4GaSL._SX393_BO1,204,203,200_.jpg" 
+         alt="Test" /> 
+</a>
+
+<p><a href="/page/slides">Home</a></p>
+</section>
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/reveal-hugo/object-assign.js></script>
+
+<a href="/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">null</script>
+<script type="application/json" id="reveal-hugo-page-params">{"theme":"simple"}</script>
+
+<script src="/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+  </body>
+</html>

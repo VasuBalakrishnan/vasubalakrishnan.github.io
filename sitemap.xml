@@ -48,11 +48,23 @@
   </url>
   
   <url>
+    <loc>https://vasu.fyi/slides/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vasu.fyi/slides/design/solid/</loc>
+  </url>
+  
+  <url>
     <loc>https://vasu.fyi/page/about/</loc>
   </url>
   
   <url>
     <loc>https://vasu.fyi/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://vasu.fyi/slides/design/</loc>
   </url>
   
 </urlset>

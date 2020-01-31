@@ -51,6 +51,21 @@ Welcome to my site. Stay tuned for updates, as I curate the content &amp;hellip;
     </item>
     
     <item>
+      <title></title>
+      <link>https://vasu.fyi/slides/design/solid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vasu.fyi/slides/design/solid/</guid>
+      <description>SOLID Solid Principles of Object Oriented Programming to make software designs more understandable, flexible and maintenable
+ SRP Single Responsibility Principle
+ A class should&#39;ve a single responsibility
+   OCP Open Closed Principle
+ Types should be open for extension, but closed for modification
+   LSP Liskov Subsitution Principle
+ Objects in a program should be replaceable with instances of their sub-type without altering correctness of that program</description>
+    </item>
+    
+    <item>
       <title>About me</title>
       <link>https://vasu.fyi/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
