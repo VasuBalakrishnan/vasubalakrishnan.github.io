@@ -60,7 +60,7 @@ While I primarily used it for playing games, I did get to code simple BASIC prog
   "headline": "Prelude",
   "description" : "I\x27m passionate about technology in general and programming. My first introduction to computers was in my junior year of High School when my parents got us Sinclair ZX Spectrum 128K.\nWhile I primarily used it for playing games, I did get to code simple BASIC programs. Never did I imagine then it would end up as a Software Engineer. I went on to finish my Masters (Computer Applications) and over the years I\x27ve worked with multitude of technologies, languages, frameworks and tools.",
   "inLanguage" : "en",
-  "wordCount":  142 ,
+  "wordCount":  147 ,
   "datePublished" : "2020-01-26T22:20:01",
   "dateModified" : "2020-01-26T22:20:01",
   "image" : "https:\/\/vasu.fyi\/img\/avatar-icon.png",
@@ -100,6 +100,17 @@ While I primarily …">
   <link rel="stylesheet" href="https://vasu.fyi/css/highlight.min.css" /><link rel="stylesheet" href="https://vasu.fyi/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-31NVZ9WT6W', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
   </head>
@@ -278,6 +289,7 @@ While I primarily …">
 </ul>
 <p>I plan to keep this blog more technical but once in a while I might post something non-technical.</p>
 <p>So stay tuned and enjoy reading !!!!</p>
+<p>{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
 
 
         
@@ -321,6 +333,20 @@ While I primarily …">
 
 
       
+        
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://vasu.fyi/posts/prelude">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/vasu.fyi\/posts\/prelude';
+            };
+
+          </script>
+          </div>
+          
         
         
       
@@ -400,6 +426,28 @@ While I primarily …">
 
 
 
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'VB';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//VB.disqus.com/count.js" async></script>
 
 
 

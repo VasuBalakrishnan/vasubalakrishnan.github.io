@@ -101,6 +101,17 @@ Welcome to my site. Stay tuned for updates, as I curate the content &hellip;">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-31NVZ9WT6W', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 
   </head>
   <body>
@@ -311,6 +322,20 @@ Welcome to my site. Stay tuned for updates, as I curate the content &hellip;">
 
       
         
+          
+          <div class="disqus-comments">                  
+            <button id="show-comments" class="btn btn-default" type="button">Show <span class="disqus-comment-count" data-disqus-url="https://vasu.fyi/posts/hello">comments</span></button>
+            <div id="disqus_thread"></div>
+
+            <script type="text/javascript">
+              var disqus_config = function () {
+              this.page.url = 'https:\/\/vasu.fyi\/posts\/hello';
+            };
+
+          </script>
+          </div>
+          
+        
         
       
 
@@ -389,6 +414,28 @@ Welcome to my site. Stay tuned for updates, as I curate the content &hellip;">
 
 
 
+
+
+
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = 'VB';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//VB.disqus.com/count.js" async></script>
 
 
 
