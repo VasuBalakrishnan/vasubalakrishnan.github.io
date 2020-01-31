@@ -6,10 +6,22 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2020 15:37:10 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2020 08:42:01 -0500</lastBuildDate>
     
 	<atom:link href="https://vasu.fyi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Slides</title>
+      <link>https://vasu.fyi/page/slides/</link>
+      <pubDate>Wed, 29 Jan 2020 08:42:01 -0500</pubDate>
+      
+      <guid>https://vasu.fyi/page/slides/</guid>
+      <description>Welcome to my slides.
+As I learn, I find it easy to take notes in a markdown file. I&#39;ve turned my notes into slides using Reveal.js. This is an excellent presentation framework built in HTML / Javascript. You can build excellent presentations off your markdown files.
+I plan to convert more of my notes into slide in the days to come. Stay tuned &amp;hellip;
+Design / Architecture  SOLID - Object oriented design principles (Robert C Martin)  </description>
+    </item>
     
     <item>
       <title>Resume</title>
