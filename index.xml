@@ -6,10 +6,19 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Jan 2020 08:42:01 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 14:51:17 -0500</lastBuildDate>
     
 	<atom:link href="https://vasu.fyi/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Links</title>
+      <link>https://vasu.fyi/page/links/</link>
+      <pubDate>Fri, 31 Jan 2020 14:51:17 -0500</pubDate>
+      
+      <guid>https://vasu.fyi/page/links/</guid>
+      <description>Awesomeness  Awesome - Link to Awesomenes. Awesome Modern C&amp;#43;&amp;#43; - Curated list of awesome modern C++ resources  Blogs  Fluent C&amp;#43;&amp;#43; - An excellent resource for writing expressive code in C++ High Scalability Morning Dew  Newsletters  The Browser - Daily curated newsletter  Tools  VS Code - My go to text editor CLion - Trying out this C++ editor Balsamiq - Great tool for wireframes  </description>
+    </item>
     
     <item>
       <title>Slides</title>
